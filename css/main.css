@@ -1,0 +1,141 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    background-image: url(../images/home/background.jpg);
+    background-repeat: repeat;
+}
+p {
+    font-size: 0.5em;
+}
+
+/*header*/
+header {
+    position: fixed;
+    background: white;
+    opacity: 0.8;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: flex-start;*/
+    width: 100%;
+}
+/*updated header*/
+.headerContainer {
+    clear:both;
+    overflow:auto;
+    height: 100px;
+}
+.logoContainer img{
+    float:left;
+    width: 100px;
+    height: 100px;
+}
+
+.navBar {
+    float:right;
+    padding-right: 80px;
+    margin-top: 0;
+}
+.navBar ul {
+    margin-top: 10px;
+}
+.navBar p {
+    font-size: 15px;
+    font-weight: bold;
+}
+.navBar li{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 15px;
+    font-size: 18px;
+}
+.navBar a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdownContent {
+    display: none;
+    position: absolute;
+    min-width: 130px;
+}
+.dropdownContent a {
+    color: dodgerblue;
+    padding-top: 15px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+/*#leftHeader {*/
+/*    margin:0;*/
+/*}*/
+
+/*#leftHeader a {*/
+/*    text-decoration: none;*/
+/*    display: inline;*/
+/*    font-size: 30px;*/
+/*    color: black;*/
+/*    margin-left: 30px;*/
+/*    margin-bottom: 100px;*/
+/*    padding: 20px;*/
+/*}*/
+/*#leftHeader img {*/
+/*    width: 80px;*/
+/*    height: 80px;*/
+/*}*/
+
+/*#rightHeader {*/
+/*    display: inline-block;*/
+/*    margin-left: 400px;*/
+/*    !*margin-top: 15px;*!*/
+/*    !*margin-left: 400px;*!*/
+/*}*/
+/*#rightHeader a {*/
+/*    text-decoration: none;*/
+/*    color: black;*/
+/*    font-size: 14px;*/
+
+/*footer*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding: 15px 0;
+    font-size: 0.8em;
+}
+footer p {
+    font-size: 12px;
+
+}
+footer a {
+    text-decoration: none;
+    font-size: 12px;
+
+}
+#footerLeft {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 0 10px;
+    width: 300px;
+}
+#footerLeft a {
+    padding-top: 12px;
+}
+#footerRight {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    width: 100px;
+    height: 50px;
+}
+#footerRight img {
+    padding-right: 10px;
+}

@@ -1,0 +1,40 @@
+main {
+    width: 1000px;
+    margin: auto;
+    padding-top: 107px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td, th {
+    font-size: 15px;
+    color: #808080;
+    line-height: 1.4;
+    padding-left: 10px;
+}
+
+.tableHead {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 1.4;
+    background-color: #6c7ae0;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+#roomTableContainer {
+    margin-top: 20px;
+}
+
+#catTableContainer {
+    margin-top: 50px;
+}
