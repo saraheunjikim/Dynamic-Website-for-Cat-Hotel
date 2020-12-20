@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/saraheunjikim/Dynamic-Website-for-Cat-Hotel">
-    <img src="cat.JPG" alt="Logo" width="300">
+    <img src="cat.JPG" alt="Logo" width="500">
   </a>
   <h1 align="center">MeowTel Website</h1>
   <p align="center">
